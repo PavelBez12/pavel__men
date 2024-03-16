@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-/
+
 
 .menu__inner{
     padding-top: 30px;
@@ -73,57 +73,112 @@ body {
 }
 
 
-.menu__wrapper{
-    margin-bottom: 50px;
+.menu__inner{
+    margin-bottom: 30px;
 }
 
-.coctal{
-    width: 200px;
-    height: 200px;
-    background-size: contain;
-    border-radius: 12px;
-}
+.menu__header{
 
-.menu{
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-
-
-.menu__container{
-    background-color: rgb(23, 23, 23);
-    height: 300px;
-    border-radius: 12px;
+.menu-categories{
+    display: flex;
+    gap: 16px;
 }
 
 .menu__title{
+    font-family: var(--font-nasalization);
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.liner{
+    margin-bottom: 30px;
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.menu__inner {
+    margin-bottom: 30px;
+
+}
+
+.menu__wrapper {
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu-info__title {
     margin-bottom: 15px;
     font-size: 20px;
     font-weight: 700;
 }
 
-.menu__item{
+.dish__item {
+    width: 200px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: #212121;
+    z-index: 1;
+}
+
+.dish__item img {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.dish__content {
     padding: 10px;
     height: 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
 }
 
-.menu__subtitle{
+.dish__name {
     margin-bottom: 15px;
     font-size: 14px;
 }
 
-.dish__smail{
+.dish__small-text {
     display: flex;
     justify-content: space-between;
 }
 
-.dish__text{
+.dish-small {
     font-size: 12px;
-    color: rgb(204, 204, 204);
+    color: #ccc;
+}
+
+.menu-info__text {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.menu__item {
+    margin: 0 0 15px 15px;
+    list-style: disc;
+}
+
+.menu-gr {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.menu {
+    display: none;
+}
+
+.menu_active {
+    display: block;
+}
+
+.coctail-number {
+    font-size: 22px;
 }
