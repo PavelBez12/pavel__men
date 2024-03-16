@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <!-- Noto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Cormorant -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Druzhok -->
+    <link href="https://fonts.cdnfonts.com/css/druzhok" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section__menu">
+        <div class="container">
+            <div class="menu__inner">
+                <div class="menu__header">
+                    <h3 class="section__title">Меню</h3>
+
+                    <div class="menu-categories">
+                            <button id="btnMenuKitchen" class="btn btn_menu btn-tab btn_active" data-tab="0">Кухня</button>
+                            <button id="btnMenuNonAlcho" class="btn btn_menu btn-tab" data-tab="1">Безалкогольные напитки</button>
+                            <button id="btnMenuAlcho" class="btn btn_menu btn-tab" data-tab="2">Алкогольные напитки</button>
+                            <button id="btnMenuCoctails" class="btn btn_menu btn-tab" data-tab="3">Коктейли</button>
+                     </div>
+
+                </div>
+            </div>
+
+            <div class="liner"></div>
+
+            <div class="menu__wrapper">
+                <p class="menu__title">Чаи</p>
+                <ul class="menu">
+                    <li class="menu__info">
+                        <div class="menu__container">
+                            <img src="coctal.jpg" alt="коктель" class="coctal">
+                            <div class="menu__item">
+                                <p class="menu__subtitle">Ассам</p>
+                                <div class="dish__smail">
+                                    <div class="dish__text">
+                                        <p>900мл</p>
+                                    </div>
+                                    <div class="dish__text">
+                                        <p>200₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu__info">
+                        <div class="menu__container">
+                            <img src="coctal.jpg" alt="коктель" class="coctal">
+                            <div class="menu__item">
+                                <p class="menu__subtitle">Сенча</p>
+                                <div class="dish__smail">
+                                    <div class="dish__text">
+                                        <p>900мл</p>
+                                    </div>
+                                    <div class="dish__text">
+                                        <p>200₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu__info">
+                        <div class="menu__container">
+                            <img src="coctal.jpg" alt="коктель" class="coctal">
+                            <div class="menu__item">
+                                <p class="menu__subtitle">Молочный улун</p>
+                                <div class="dish__smail">
+                                    <div class="dish__text">
+                                        <p>900мл</p>
+                                    </div>
+                                    <div class="dish__text">
+                                        <p>200₽</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+        <div class="menu__wrapper">
+            <p class="menu__title">Авторские чаи</p>
+            <ul class="menu">
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Тропический с облепихой</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>900мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>350₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Улун - Помело - Ромашка</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>900мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>350₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Инжир - Чабрец</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>900мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>350₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="menu__wrapper">
+            <p class="menu__title">Лимонады</p>
+            <ul class="menu">
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Вишня - Шисо</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>250мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>250₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Черемуха - Личи</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>250мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>250₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Манго - Маракуйя</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>250мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>250₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Малина - Пан</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>250мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>250₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="menu__wrapper">
+            <p class="menu__title">Кофе</p>
+            <ul class="menu">
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Эспрессо</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>50мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>80₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Американо</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>150мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>100₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Капучино</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>200мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>120₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Раф карамельный</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>220мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>180₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <div class="menu__wrapper">
+            <p class="menu__title">Софт</p>
+            <ul class="menu">
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Вода газ, не газ</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>500мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>150₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Рич кола</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>550мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>150₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Сок в ассортименте</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>200мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>150₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Лапочка в ассортименте</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>550мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>220₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__info">
+                    <div class="menu__container">
+                        <img src="coctal.jpg" alt="коктель" class="coctal">
+                        <div class="menu__item">
+                            <p class="menu__subtitle">Энергетик</p>
+                            <div class="dish__smail">
+                                <div class="dish__text">
+                                    <p>500мл</p>
+                                </div>
+                                <div class="dish__text">
+                                    <p>250₽</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+
+        </div>
+    </section>
+</body>
+</html>
