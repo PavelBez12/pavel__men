@@ -113,6 +113,13 @@ body {
     gap: 30px;
 }
 
+.menu__wrapper-coctal{
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+
 .menu-info__title {
     margin-bottom: 15px;
     font-size: 20px;
@@ -126,6 +133,11 @@ body {
     background-color: #212121;
     z-index: 1;
 }
+.dish__item-coctal{
+    height: 350px;
+}
+
+
 
 .dish__item img {
     width: 100%;
@@ -134,15 +146,27 @@ body {
 }
 
 .dish__content {
-    padding: 10px;
+    padding: 0 10px;
     height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.dish__content_coctal{
+    padding: 0 10px;
+    height: 140px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .dish__name {
-    margin-bottom: 15px;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.dish__name-coctal{
+    margin:15px 0;
     font-size: 14px;
 }
 
@@ -181,4 +205,12 @@ body {
 
 .coctail-number {
     font-size: 22px;
+}
+
+.dish-small-in{
+    font-size: 13px;
+    line-height: 20px;
+    width: 190px;
+    margin-bottom: 10px;
+    color: #ccc;
 }
